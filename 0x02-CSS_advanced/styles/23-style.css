@@ -198,7 +198,7 @@ ul.row {
 }
 
 .footer-address {
-    color: whitesmoke;
+    color: var(--text-color);
 }
 
 .social-link {

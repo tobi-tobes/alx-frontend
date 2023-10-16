@@ -118,7 +118,7 @@ a:active {
 
 .row::after {
     display: table;
-    content: none;
+    content: '';
     clear: both;
 }
 

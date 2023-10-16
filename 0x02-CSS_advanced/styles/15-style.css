@@ -47,7 +47,7 @@ button,select{text-transform:none}
 }
 
 .box {
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 html {

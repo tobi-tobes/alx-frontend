@@ -46,7 +46,7 @@ button,select{text-transform:none}
     --section-title-color: var(--color-black);
 }
 
-* {
+.box {
     box-sizing: border-box;
 }
 

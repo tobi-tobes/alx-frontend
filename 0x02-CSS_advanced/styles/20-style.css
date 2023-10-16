@@ -116,7 +116,7 @@ a:active {
     color: var(--color-primary);
 }
 
-.row {
+.row::after {
     display: table;
     content: none;
     clear: both;

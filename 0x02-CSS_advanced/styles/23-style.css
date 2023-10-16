@@ -198,11 +198,11 @@ ul.row {
 }
 
 .footer-address {
-    color: var(--text-color);
+    color: whitesmoke;
 }
 
 .social-link {
-    display: inline-block;
+    display: block;
 }
 
 .social-link svg {

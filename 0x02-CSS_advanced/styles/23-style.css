@@ -205,8 +205,8 @@ ul.row {
     display: block;
 }
 
-.social-link svg {
-    color: var(--text-color);
+svg {
+    fill: var(--text-color);
 }
 
 .footer {

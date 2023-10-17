@@ -112,13 +112,14 @@ body {
 .nav .nav-link {
     display: block;
     padding: 0.5rem 1rem;
+    position: relative;
 }
 
 .nav .nav-link::before {
     content: '';
     position: absolute;
     left: 0;
-    top: 0;
+    bottom: 0;
     background-color: var(--color-white);
     width: 0;
     height: 0.2rem;
@@ -198,6 +199,7 @@ a:active {
     left: -0.1rem;
     top: -0.1rem;
     right: -0.1rem;
+    bottom: -0.1rem;
     z-index: 1;
     transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
